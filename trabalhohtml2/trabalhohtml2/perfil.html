@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>perfil</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seu perfil</h1>
+        <h2 class="barranav"><a href="file:///C:/Users/arthu/OneDrive/%C3%81rea%20de%20Trabalho/trabalhohtml2/trabalho2.html">pagina inicial---</a></h2>
+        <h2 class="barranav"><a href="file:///C:/Users/arthu/OneDrive/%C3%81rea%20de%20Trabalho/trabalhohtml2/categorias.html">categorias---</a></h2>
+        <h2 class="barranav"><a href="file:///C:/Users/arthu/OneDrive/%C3%81rea%20de%20Trabalho/trabalhohtml2/perfil.html">perfil---</a></h2>
+        <h2 class="barranav"><a href="file:///C:/Users/arthu/OneDrive/%C3%81rea%20de%20Trabalho/trabalhohtml2/biblioteca.html">biblioteca</a></h2>
+    </header>
+    <main>
+        <img id="imagem" class="fotoperfil" src="img/download.jfif">
+        <h2 id="nick" >gamer bizonho 123</h2>
+        <h3 id="jogopreferido">jogo preferido: tigrinho</h3>
+        <h3>numeros de jogos na conta: 1</h3>
+        <h4>editar nome:</h4>
+        <input type="text"  id="novonick" >
+        <h4>editar jogo preferido:</h4>
+        <input type="text"  id="novojogopreferido">
+        <br>
+        <br>
+        <input type="button" value="confirmar" onclick="clicar()">
+    </main>
+    <footer>
+        <span>&copy; todos os direitos reservados</span>
+    </footer>
+    <script>
+       function clicar(){
+        var altnome=window.document.getElementById('novonick')
+        var nome=window.document.getElementById('nick')
+        var altnomejogo=window.document.getElementById('novojogopreferido')
+        var nomejogo=window.document.getElementById('jogopreferido')
+        var nomereal=String(altnome).value
+        var nomejogoreal=String(altnomejogo).value  
+        nome.innerHTML=altnome.value
+        nomejogo.innerHTML=altnomejogo.value
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    box-shadow: 3px 3px 3px 3px rgb(58, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgjog:hover{
+    background-color: rgb(197, 64, 64);
+}
+
+body{
+    margin: auto;
+    background-color: rgb(47, 128, 175);
+}
+.logo{
+    width: 400px;
+    height: 170px;
+    position: relative;
+    right:270px;
+}
+.barranav:hover{
+    margin-block-end: 0px;
+    padding: 10px;
+    background-color: rgba(98, 100, 214, 0.349);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.imgjog{
+    width: 400px;
+    height: 200px;
+    padding: 1px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 10px;
+}
+.fotoperfil{
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px black;
+    box-shadow: 3px 3px 3px 5px black;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 400px;
+}
+p{
+    font-size: 20px;
+}
+span{
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#nomelogo{
+    position: relative;
+    top: -10px;
+    right: 280px;
+}
+.barranav{
+  
+}
+#tituloperfil{
+    position: relative;
+    right: 80px;
+}
+#titulobib{
+    position: relative;
+    right: 80px;
+}
+p{
+    position: relative;
+    right: -440px;
+    top: -150px;
+    text-align: justify;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    width: 1000px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}

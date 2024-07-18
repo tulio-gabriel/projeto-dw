@@ -1,0 +1,71 @@
+header{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    box-shadow: 3px 3px 3px 3px rgb(58, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+.imgjog:hover{
+    background-color: aquamarine;
+}
+body{
+    margin: auto;
+    background-color: rgb(48, 68, 71);
+    border-width: 3px;
+    border-style:solid;
+    border-color: rgb(105, 102, 148);
+}
+.logo{
+    position: relative;
+    left: 60px;
+    top: 0px;
+    width: 240px;
+    height: 120px;
+}
+.barranav:hover{
+    background-color: rgb(126, 147, 165);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.imgjog{
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.fotoperfil{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px black;
+    box-shadow: 3px 3px 3px 5px black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+p{
+    font-size: 20px;
+}
+span{
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(62, 96, 87);
+}
+.barranav{
+    position: relative;
+    right: -100px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 1000;
+}
